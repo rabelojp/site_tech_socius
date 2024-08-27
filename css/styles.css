@@ -35,6 +35,7 @@ Colors:
 /**************************/
 body,
 html {
+	scroll-behavior: auto;
     width: 100%;
 	height: 100%;
 }
