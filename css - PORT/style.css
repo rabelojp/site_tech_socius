@@ -2603,9 +2603,9 @@ h6 {
   line-height: 34px;
   display: inline-block; }
   .blog_btn:hover {
-    background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background-image: -moz-linear-gradient(0deg, #0B36A8 0%, #4153F0 100%);
+    background-image: -webkit-linear-gradient(0deg, #0B36A8 0%, #4153F0 100%);
+    background-image: -ms-linear-gradient(0deg, #0B36A8 0%, #4153F0 100%);
     border-color: #fff;
     color: #fff; }
 
