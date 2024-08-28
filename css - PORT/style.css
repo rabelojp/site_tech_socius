@@ -1,3 +1,12 @@
+.logo-text {
+  color: #ffffff;
+	font-weight: 700;
+	font-size: 1.875rem;
+	line-height: 1rem;
+	text-decoration: none;
+}
+
+
 /*----------------------------------------------------
 @File: Default Styles
 @Author: Rocky Ahmed
@@ -341,7 +350,7 @@ button:focus {
     min-height: 780px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+      background: url(../images/banner-2.webp) no-repeat scroll center center;
       opacity: .5;
       height: 125%;
       position: absolute;
@@ -2866,7 +2875,8 @@ h6 {
     left: 0px;
     bottom: 30px;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+  text-decoration: none; }
     .projects_item .projects_text h4 {
       font-size: 21px;
       font-family: "Heebo", sans-serif;
@@ -2875,7 +2885,8 @@ h6 {
       margin-bottom: 5px;
       transition: all 300ms linear 0s;
       text-transform: uppercase;
-      cursor: pointer; }
+      cursor: pointer;
+    text-decoration: none; }
     .projects_item .projects_text p {
       margin-bottom: 0px;
       font-size: 14px; }
