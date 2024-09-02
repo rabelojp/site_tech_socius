@@ -6,6 +6,17 @@
 	text-decoration: none;
 }
 
+.quotes-math {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 24px 35px 24px 30px;
+  background-color: white;
+  box-shadow: -20.84px 21.58px 40px 100px rgba(176, 176, 176, 0.1);
+  font-size: 16px;
+  line-height: 24px;
+  color: #777;
+}
+
 /*----------------------------------------------------
 @File: Default Styles
 @Author: Rocky Ahmed
@@ -2891,7 +2902,7 @@ h6 {
   .projects_item:hover:before {
     opacity: 1; }
   .projects_item:hover .projects_text h4 {
-    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    background: linear-gradient(to right, #ffffff 0%, #93a6dd 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
