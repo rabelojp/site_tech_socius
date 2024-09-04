@@ -2885,12 +2885,15 @@ h6 {
     bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-  text-decoration: none; }
+    text-decoration: none; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+      border-radius:  0 10px 10px 0;}
     .projects_item .projects_text h4 {
-      font-size: 21px;
+      font-size: 16px;
       font-family: "Heebo", sans-serif;
       font-weight: bold;
-      color: #222222;
+      color: white;
       margin-bottom: 5px;
       transition: all 300ms linear 0s;
       text-transform: uppercase;
@@ -2898,7 +2901,8 @@ h6 {
     text-decoration: none; }
     .projects_item .projects_text p {
       margin-bottom: 0px;
-      font-size: 14px; }
+      font-size: 14px; 
+      color: white;}
   .projects_item:hover:before {
     opacity: 1; }
   .projects_item:hover .projects_text h4 {
