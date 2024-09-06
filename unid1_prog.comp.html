@@ -69,7 +69,7 @@
 								</li>
 
 								<li class="nav-item"><a class="nav-link" href="project1.html">Projetos</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="tools.html">Ferramentas</a></li>
+                                <li class="nav-item"><a class="nav-link" href="tools.html">Tech Tool's</a></li>
 								<li class="nav-item"><a class="nav-link" href="portfolio.html">Conteúdos</a></li>
                                 <li class="nav-item"><a class="nav-link" href="terms.html">Termos e Condições</a></li>
                                 <li class="nav-item"><a class="nav-link" href="privacy.html">Política de Privacidade</a></li>
@@ -129,7 +129,7 @@
                                         <a href="#pensamento" onclick="scrollToSection(event, 'pensamento')">Pensamento Estruturado;</a><br>
                                         <a href="#algoritmo" onclick="scrollToSection(event, 'algoritmo')">Algoritmo;</a><br>
                                         <a href="#representacao" onclick="scrollToSection(event, 'representacao')">Formas de Representação;</a><br>
-                                        <a href="#operacoes" onclick="scrollToSection(event, 'operacoes')">Operações entre Conjuntos;</a><br>
+                                        <a href="#dados" onclick="scrollToSection(event, 'dados')">Tipos de Dados;</a><br>
                                         <a href="#">Intersecção dos Conjuntos;</a><br>
                                         <a href="#">Diferença entre Conjuntos;</a><br>
                                         <a href="#">Produto Cartesiano;</a><br>
@@ -200,7 +200,7 @@
                                 </div>
                                 <h3>Componentes básicos de um algoritmo computacional: </h3><br>
                                 <p>
-                                    <strong>Dados: </strong>São a entrada, os valores   (números, nomes, etc) usados para alimentar o código e resolver o problema. <br><br><strong>Código: </strong>São as instruções usadas para manipular/processar os dados para chegar a uma resolução ou valor final.
+                                    <strong>Dados: </strong>São a <strong>entrada</strong>, os valores   (números, nomes, etc) usados para alimentar o código e resolver o problema. <br><br><strong>Código: </strong>São as <strong>instruções</strong> usadas para manipular/processar os dados para chegar a uma resolução ou valor final.
                                 </p>
                                 <!-- Section Divider -->
                                 <div class="container">
@@ -213,18 +213,98 @@
                                 <!-- end of section divider -->
                                 <h2 id="representacao">Formas de Representação</h2>
                                 <p style="text-align: justify;">
-                                    Quando vamos elaborar um algoritmo computacional, precisamos <strong>descrever os dados e como vamos manipula-los</strong>. Essa descrição pode ser feita de diversas formas diferentes, seguindo diferentes raciocínios, a depender de quem está criando o algoritmo.
+                                    Quando vamos elaborar um algoritmo computacional, precisamos <strong>descrever os dados e como vamos manipula-los (a chamada declaração de variáveis e o código em seguida)</strong>. Essa descrição pode ser feita de diversas formas diferentes, seguindo diferentes raciocínios, a depender de quem está criando o algoritmo.
                                 </p>
                                 <div class="quotes-math">
                                     <h4>Linguagem Natural</h4>
                                     <p><br>
-                                        Amplamente conhecida como Portugol, pseudocódigo ou português estruturado, se baseia na construção de algoritmos em linguagem natural (no nosso caso, o português). <br><br><strong>Exemplo: </strong>Vamos classificar a idade de uma pessoa em jovem ou adulta
+                                        Amplamente conhecida como <strong>Portugol, pseudocódigo ou português estruturado</strong>, se baseia na construção de algoritmos em <strong>linguagem natural</strong> (no nosso caso, o português). <br><br><strong>Exemplo: </strong>Vamos classificar a idade de uma pessoa em jovem ou adulta:
+                                    </p><br>
+                                    <p>
+                                        PROGRAMA
+                                        <p>{</p>
+                                            <p style="margin: 10px;">funcao inicio</p>
+                                            <p style="margin: 10px;">{</p>
+                                            <p style="margin: 30px;">inteiro idade</p>
+                                            <p style="margin: 30px;">escreva("Informe sua idade:  ")</p>
+                                            <p style="margin: 30px;">leia(idade)</p>
+                                            <p style="margin: 30px;">se (idade < 21)</p>
+                                            <p style="margin: 30px;">{</p>
+                                            <p style="margin: 30px;">escreva("Você é jovem!")</p>
+                                            <p style="margin: 30px;">}</p>
+                                            <p style="margin: 30px;">senao</p>
+                                            <p style="margin: 30px;">{</p>
+                                            <p style="margin: 30px;">escreva("Você é adulto!")</p>
+                                            <p style="margin: 30px;">}</p>
+                                            <p style="margin: 10px;">}</p>
+                                        <p>}</p>
+
+
                                     </p>
                                 </div>
                                 <div class="quotes-math">
-                                    A = {v, x, z} <br>
-                                    B = {2, 4, 6} <br>
-                                    C = {positivo, negativo}
+                                    <h4>Fluxograma</h4>
+                                    <p><br>
+                                        São diversas as formas geométricas usadas na construção de um fluxograma, nosso foco será somente a <strong>compreensão da lógica</strong> pressuposta por esse tipo de representação.
+                                    </p>
+                                    <p>
+                                        Nessa abordagem, o algoritmo é representado graficamente, com cada um dos seus passos sendo representado individualmente.
+                                    </p><br><br>
+                                    <strong>Exemplo:</strong> Vejamos o algoritmo anterior em fluxograma: <br><br><br>
+                                    <div class="col-lg-12 col-md-9">
+                                        <div class="feature-img">
+                                            <img class="img-fluid" src="images/fluxograma.webp" alt=""><br><br>
+                                            <p>(imagem grande para melhor visualização em telas menores)</p>
+                                        </div>									
+                                    </div>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4>Linguagem de Programação</h4>
+                                    <p><br>
+                                        Uma linguagem de programação é um sistema formal de comunicação utilizado para instruir o computador a realizar determinadas tarefas. Com ela, podemos estruturar algoritmos de maneira que o computador consiga interpretar e executar essas instruções, manipulando e processando dados de forma eficiente.
+                                    </p>
+                                    <p>
+                                        Algumas das linguagens de programação mais utilizadas são:
+                                    </p>
+                                    <div class="quotes-math">
+                                        <h4>Python</h4>
+                                        <p>
+                                            Muito conhecida por sua adaptabilidade e simplicidade. Utilizada principalmente para o aprendizado de máquina e criação de automações. Conta com uma grande comunidade que oferece suporte aos usuários.
+                                        </p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <h4>JAVA</h4>
+                                        <p>
+                                            Amplamente utilizada para construção de sistemas multi-plataforma, sistemas bancários e comerciais, aplicativos Android, 
+                                        </p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <h4>JavaScript</h4>
+                                        <p>
+                                            Utilizada majoritariamente para desenvolvimento WEB, na construção de elementos interativos em sites e páginas da internet. Mas também tem uso no backend, com a utilização do Node.js
+                                        </p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <h4>C++</h4>
+                                        <p>
+                                            Essa linguagem é muito utilizada na construção de sistemas complexos, como sistemas operacionais (windows, macOS e IOS, linux) por possuir um alto desempenho.
+                                        </p>
+                                    </div>
+                                </div>
+                                <h2 id="dados">Tipos de Dados</h2>
+                                <p>
+                                    Os dados são a <strong>entrada</strong>, em outras palavras, são a <strong>"matéria prima"</strong> utilizada nos programas para que as ações possam ser executadas. Para o correto processamento dos dados, devemos classifica-los de acordo com suas <strong>características e tamanho</strong>, pensando antecipadamente quais serão os dados que vamos utilizar durante a execução do nosso algoritmo e quais podem ser os resultados do processamento. 
+                                </p>
+                                <p>
+                                    Para armazenar dados de maneira adequada e utilizá-los posteriormente, é necessário classificá-los com base em suas características ou valores. Esse processo envolve a utilização de tipos de dados, que são categorias que determinam o tipo de valor que uma variável pode armazenar, como inteiros, caracteres, strings ou números com ponto flutuante.
+                                </p>
+                                <div class="quotes-math">
+                                    <h3>Classificação -</h3><br>
+                                    <h4>Real:</h4> São os dados que pertencem ao conjunto dos números reais <strong>R</strong> {1, &radic;2, 1/2, -4, 0,3...} <br><br>
+                                    <h4>Inteiro: </h4>Todo dado pertencente ao conjunto dos números inteiros <strong>Z</strong>{-3, -2, -1, 0, 1, 2}
+                                </div>
+                                <div class="quotes-math">
+                                    <img src="images/por" alt="">
                                 </div>
                                 <p style="text-align: justify;">Os nomes dos elementos e dos conjuntos <strong>podem variar</strong>, ficando a critério de quem está criando/utilizando, podendo ser levada em consideração a situação ou alguma norma. Um elemento pode ou não pertencer a um conjunto e para indicar o pertencimento nós utilizamos os símbolos <strong>&isin;</strong> (pertence) e <strong>&notin;</strong> (não pertence).
                                 </p>
