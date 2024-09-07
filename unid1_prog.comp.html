@@ -130,12 +130,12 @@
                                         <a href="#algoritmo" onclick="scrollToSection(event, 'algoritmo')">Algoritmo;</a><br>
                                         <a href="#representacao" onclick="scrollToSection(event, 'representacao')">Formas de Representação;</a><br>
                                         <a href="#dados" onclick="scrollToSection(event, 'dados')">Tipos de Dados;</a><br>
-                                        <a href="#">Intersecção dos Conjuntos;</a><br>
-                                        <a href="#">Diferença entre Conjuntos;</a><br>
-                                        <a href="#">Produto Cartesiano;</a><br>
-                                        <a href="#">Propriedades das operações entre Conjuntos;</a><br>
-                                        <a href="#">Propriedades distributivas;</a><br>
-                                        <a href="#">Intervalos Reais.</a><br>
+                                        <a href="variavies" onclick="scrollToSection(event, 'variaveis')">Variáveis e Constantes;</a><br>
+                                        <a href="identificadores" onclick="scrollToSection(event, 'identificadores')">Identificadores;</a><br>
+                                        <a href="operadores" onclick="scrollToSection(event, 'operadores')">Operadores;</a><br>
+                                        <a href="logicos" onclick="scrollToSection(event, 'logicos')">Operadores Lógicos;</a><br>
+                                        <a href="#" onclick="scrollToSection(event, 'dados')">Propriedades distributivas;</a><br>
+                                        <a href="#" onclick="scrollToSection(event, 'dados')">Intervalos Reais.</a><br>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
                                 <!-- end of section divider -->
                                 <h2 id="logica">Lógica</h2>
                                 <p style="text-align: justify;">
-                                    A lógica é o <strong>estudo e a aplicação</strong> de regras para o <strong>raciocínio estruturado</strong>, baseado em informações iniciais utilizadas para a busca de conclusões realistas e verdadeiras. Investigando os argumentos e suas estruturas, a lógica <strong>diferencia os argumentos corretos dos incorretos</strong>. A palavra "lógica" deriva do grego logos, que significa "razão". Quando falamos algo para alguém, pressupomos que o que estamos dizendo possui lógica, ou seja, <strong>faz sentido e é uma argumentação racional</strong>.
+                                    A Lógica é o <strong>estudo e a aplicação</strong> de regras para o <strong>raciocínio estruturado</strong>, baseado em informações iniciais utilizadas para a busca de conclusões realistas e verdadeiras. Investigando os argumentos e suas estruturas, a lógica <strong>diferencia os argumentos corretos dos incorretos</strong>. A palavra "lógica" deriva do grego logos, que significa "razão". Quando falamos algo para alguém, pressupomos que o que estamos dizendo possui lógica, ou seja, <strong>faz sentido e é uma argumentação racional</strong>.
                                 </p>
                                 <!-- Section Divider -->
                                 <div class="container">
@@ -184,9 +184,9 @@
                                 <h2 id="algoritmo">Algoritmo</h2>
                                 <p style="text-align: justify;">
                                     Um algoritmo consiste em <strong>passos lógicos e ordenados realizados para resolver um problema ou alcançar um objetivo</strong>. Por exemplo, uma receita de bolo é um algoritmo, pois apresenta uma sequência de etapas que devem ser seguidas com o intuito de atingir um objetivo: fazer o bolo. <br><br> Podemos fazer a seguinte classificação de um algoritmo:
-                                </p><br>
+                                </p>
                                 <div style="text-align: justify;" class="quotes-math">
-                                    <strong>Computacionais: </strong>São os algoritmos cuja sequência de passos podem ser interpretadas e executadas por um computador. <br><br>Exemplo: Um software/programa de computador (word, excel, etc).
+                                    <strong><h3>Computacionais: </h3></strong>São os algoritmos cuja sequência de passos <strong>podem ser interpretadas e executadas por um computador</strong>. <br><br><strong>Exemplo: </strong>Um software/programa de computador (word, excel, etc).
                                     <!-- Section Divider -->
                                     <div class="container">
                                         <div class="row">
@@ -196,12 +196,15 @@
                                         </div> <!-- end of row -->
                                     </div> <!-- end of container -->
                                     <!-- end of section divider -->
-                                     <strong>NÃO Computacionais: </strong>algoritmos cuja sequência de passos não podem ser executadas por um computador. <br><br>Exemplo: encher um copo com água e beber a água.
+                                     <strong><h3>NÃO Computacionais: </h3></strong>Algoritmos cuja sequência de passos <strong>não podem ser executadas por um computador</strong>. <br><br><strong>Exemplo: </strong>Encher um copo com água e beber a água.
                                 </div>
-                                <h3>Componentes básicos de um algoritmo computacional: </h3><br>
+                                <div class="quotes-math">
+                                    <h3>Componentes básicos de um algoritmo computacional: </h3><br>
                                 <p>
-                                    <strong>Dados: </strong>São a <strong>entrada</strong>, os valores   (números, nomes, etc) usados para alimentar o código e resolver o problema. <br><br><strong>Código: </strong>São as <strong>instruções</strong> usadas para manipular/processar os dados para chegar a uma resolução ou valor final.
+                                    <h4>Dados: </h4>São a <strong>entrada</strong>, os valores   (números, nomes, etc) usados para <strong>"alimentar"</strong> o código e resolver o problema ou devolver um valor. <br><br><strong><h4>Código: </h4></strong>São as <strong>instruções</strong> usadas para <strong>manipular/processar</strong> os dados para chegar a uma resolução ou valor final (escritos quase sempre um uma <strong>linguagem de programação</strong>)
                                 </p>
+                                </div>
+                                
                                 <!-- Section Divider -->
                                 <div class="container">
                                     <div class="row">
@@ -213,7 +216,7 @@
                                 <!-- end of section divider -->
                                 <h2 id="representacao">Formas de Representação</h2>
                                 <p style="text-align: justify;">
-                                    Quando vamos elaborar um algoritmo computacional, precisamos <strong>descrever os dados e como vamos manipula-los (a chamada declaração de variáveis e o código em seguida)</strong>. Essa descrição pode ser feita de diversas formas diferentes, seguindo diferentes raciocínios, a depender de quem está criando o algoritmo.
+                                    Quando vamos elaborar um algoritmo computacional, precisamos <strong>descrever quais serão os dados que vamos utilizar e como vamos manipula-los (a chamada declaração de variáveis e o código em seguida)</strong>. Essa descrição pode ser feita de diversas formas diferentes, seguindo diferentes raciocínios, a depender de quem está criando o algoritmo.
                                 </p>
                                 <div class="quotes-math">
                                     <h4>Linguagem Natural</h4>
@@ -248,8 +251,8 @@
                                         São diversas as formas geométricas usadas na construção de um fluxograma, nosso foco será somente a <strong>compreensão da lógica</strong> pressuposta por esse tipo de representação.
                                     </p>
                                     <p>
-                                        Nessa abordagem, o algoritmo é representado graficamente, com cada um dos seus passos sendo representado individualmente.
-                                    </p><br><br>
+                                        Nessa abordagem, o <strong>algoritmo é construído graficamente</strong>, com cada um dos seus passos sendo representado individualmente.
+                                    </p><br>
                                     <strong>Exemplo:</strong> Vejamos o algoritmo anterior em fluxograma: <br><br><br>
                                     <div class="col-lg-12 col-md-9">
                                         <div class="feature-img">
@@ -261,7 +264,7 @@
                                 <div class="quotes-math">
                                     <h4>Linguagem de Programação</h4>
                                     <p><br>
-                                        Uma linguagem de programação é um sistema formal de comunicação utilizado para instruir o computador a realizar determinadas tarefas. Com ela, podemos estruturar algoritmos de maneira que o computador consiga interpretar e executar essas instruções, manipulando e processando dados de forma eficiente.
+                                        Uma linguagem de programação é um <strong>sistema formal de comunicação</strong> utilizado para <strong>instruir o computador a realizar determinadas tarefas</strong>. Com ela, podemos <strong>estruturar algoritmos de maneira que o computador consiga interpretar e executar</strong> essas instruções, manipulando e processando dados de forma eficiente.
                                     </p>
                                     <p>
                                         Algumas das linguagens de programação mais utilizadas são:
@@ -269,54 +272,229 @@
                                     <div class="quotes-math">
                                         <h4>Python</h4>
                                         <p>
-                                            Muito conhecida por sua adaptabilidade e simplicidade. Utilizada principalmente para o aprendizado de máquina e criação de automações. Conta com uma grande comunidade que oferece suporte aos usuários.
+                                            Muito conhecida por sua <strong>adaptabilidade e simplicidade</strong>. Utilizada principalmente para o <strong>aprendizado de máquina e criação de automações</strong>. Conta com uma grande comunidade que oferece <strong>suporte aos usuários</strong>.
                                         </p>
                                     </div>
                                     <div class="quotes-math">
                                         <h4>JAVA</h4>
                                         <p>
-                                            Amplamente utilizada para construção de sistemas multi-plataforma, sistemas bancários e comerciais, aplicativos Android, 
+                                            Amplamente utilizada para construção de sistemas multi-plataforma, sistemas bancários e comerciais, aplicativos Android e aplicações complexas. Ficando atrás somente do Python, o <strong>JAVA</strong> é uma das linguagens mais utilizadas no mundo! 
                                         </p>
                                     </div>
                                     <div class="quotes-math">
                                         <h4>JavaScript</h4>
                                         <p>
-                                            Utilizada majoritariamente para desenvolvimento WEB, na construção de elementos interativos em sites e páginas da internet. Mas também tem uso no backend, com a utilização do Node.js
+                                            Utilizada majoritariamente para <strong>desenvolvimento WEB</strong>, na construção de elementos interativos em sites e páginas da internet. Com o <strong>Node.js</strong> podemos utilizar o <strong>JavaScript</strong> no backend também, se tornando uma linguagem muito versátil.
                                         </p>
                                     </div>
                                     <div class="quotes-math">
                                         <h4>C++</h4>
                                         <p>
-                                            Essa linguagem é muito utilizada na construção de sistemas complexos, como sistemas operacionais (windows, macOS e IOS, linux) por possuir um alto desempenho.
+                                            Essa linguagem é muito utilizada na construção de <strong>sistemas complexos</strong>, como sistemas operacionais (windows, macOS e IOS, linux) por possuir um <strong>alto desempenho</strong>. Derivada do <strong>C</strong>, uma das primeiras linguagens populares do mundo, o <strong>C++</strong> é considerada uma liguagem muito potente por sua alta <strong>capacidade gerenciamento de hardware</strong>.
                                         </p>
                                     </div>
                                 </div>
                                 <h2 id="dados">Tipos de Dados</h2>
                                 <p>
-                                    Os dados são a <strong>entrada</strong>, em outras palavras, são a <strong>"matéria prima"</strong> utilizada nos programas para que as ações possam ser executadas. Para o correto processamento dos dados, devemos classifica-los de acordo com suas <strong>características e tamanho</strong>, pensando antecipadamente quais serão os dados que vamos utilizar durante a execução do nosso algoritmo e quais podem ser os resultados do processamento. 
+                                    Os dados são a <strong>entrada</strong>, em outras palavras, são a <strong>"matéria prima"</strong> utilizada nos programas para que as ações possam ser executadas. Para o correto processamento dos dados, devemos <strong>classifica-los</strong> de acordo com suas <strong>características e tamanho</strong>, pensando antecipadamente <strong>quais serão os dados que vamos utilizar</strong> durante a execução do nosso algoritmo e <strong>quais podem ser os resultados</strong> do processamento. 
                                 </p>
                                 <p>
-                                    Para armazenar dados de maneira adequada e utilizá-los posteriormente, é necessário classificá-los com base em suas características ou valores. Esse processo envolve a utilização de tipos de dados, que são categorias que determinam o tipo de valor que uma variável pode armazenar, como inteiros, caracteres, strings ou números com ponto flutuante.
+                                    Para armazenar dados de maneira adequada e utilizá-los posteriormente, é essencial <strong>classificá-los com base em suas características ou valores</strong>. Esse processo envolve a utilização de <strong>tipos de dados</strong>, que são categorias que determinam o tipo de valor que uma variável pode armazenar, como inteiros, caracteres, strings ou números com ponto flutuante.
                                 </p>
                                 <div class="quotes-math">
                                     <h3>Classificação -</h3><br>
-                                    <h4>Real:</h4> São os dados que pertencem ao conjunto dos números reais <strong>R</strong> {1, &radic;2, 1/2, -4, 0,3...} <br><br>
-                                    <h4>Inteiro: </h4>Todo dado pertencente ao conjunto dos números inteiros <strong>Z</strong>{-3, -2, -1, 0, 1, 2}
+                                    <h4>Real:</h4> São os dados que pertencem ao <strong>conjunto dos números reais R</strong> {1, &radic;2, 1/2, -4, 0,3...} <br><br>
+                                    <h4>Inteiro: </h4>Todo dado pertencente ao <strong>conjunto dos números inteiros Z</strong> {-3, -2, -1, 0, 1, 2} <br><br>
+                                    <h4>Caractere: </h4>São as informações compostas por um conjunto de <strong>caracteres alfanuméricos ou caracteres especiais</strong>
+                                    <p>
+                                        <strong>Exemplo: </strong>A...Z, a...z; *&#@$%?! etc...
+                                    </p> <br>
+                                    <h4>Lógico: </h4>Dados que podem assumir somente dois valores: <strong>verdadeiro ou falso</strong>
+                                </div>
+                                <h2 id="variaveis">Variáveis e Constantes</h2>
+                                <p>Os dados de um algoritmo pode ser classificado em dois tipos: <strong>variáveis e constantes</strong>.</p>
+                                <div class="quotes-math">
+                                    <strong><h3>Variáveis: </h3></strong> São espaços alocados na memória cujo valor <strong>pode ser alterado</strong> durante a execução do programa. <br>
+                                    <p style="margin: 10px;">
+                                        <strong>Exemplo: </strong>Em algumas linguagens de programação podemos declarar uma variável assim: <strong>IDADE = 25</strong>, mais tarde, durante a execução do programa, o valor pode ser alterado para <strong>IDADE = 26</strong>.
+                                    </p> <br>
+                                    <strong><h3>Constantes: </h3></strong>São parecidas com as variáveis, porém seu valor <strong>não pode ser alterado posteriormente</strong>. Depois de terem seu valor declarado, esse permanece o mesmo durante a execução do programa. <br>
+                                    <p style="margin: 10px;">
+                                        <strong>Exemplo: </strong>Uma constante pode ser definida assim: <strong>CONST FLOAT PI = 3,14</strong>, esse valor não poderá ser modificado na constante de tipo FLOAT chamada PI.
+                                    </p>
+                                </div>
+                                <h2 id="identificadores">Identificadores</h2>
+                                <p style="text-align: justify;">
+                                    São os nome utilizados para <strong>identificar dados variáveis ou constantes</strong> dentro de um algoritmo ou programa de computador. Mas, para que os identificadores sejam criados corretamente, <strong>devemos seguir algumas regras:</strong>
+                                </p>
+                                <div class="quotes-math">
+                                    <strong><h4>Começar com uma letra maiúscula ou minúscula ou um sublinhado ( _ ):</h4></strong>
+                                    <p>O nome deve obrigatoriamente começar com um letra maiúscula ou minúsculaou um sublinhado ( _ ). Ele <strong>não pode começar com um número</strong>.</p>
+                                    <p><strong>Exemplos: </strong></p>
+                                    <p><strong>Válido: </strong>idade, _total</p>
+                                    <p><strong>Inválido: </strong>2contas</p>
                                 </div>
                                 <div class="quotes-math">
-                                    <img src="images/por" alt="">
+                                    <strong><h4>Usar caracteres alfanúmericos e sublinhados:</h4></strong>
+                                    <p>O nome pode conter letras, números e sublinhados, mas não pode conter caracteres especiais ($, &, @...) ou espaços.</p>
+                                    <p><strong>Exemplos: </strong></p>
+                                    <p><strong>Válido: </strong>nome_cliente, saldoFinal</p>
+                                    <p><strong>Inválido: </strong>nome-cliente, salário$</p>
                                 </div>
-                                <p style="text-align: justify;">Os nomes dos elementos e dos conjuntos <strong>podem variar</strong>, ficando a critério de quem está criando/utilizando, podendo ser levada em consideração a situação ou alguma norma. Um elemento pode ou não pertencer a um conjunto e para indicar o pertencimento nós utilizamos os símbolos <strong>&isin;</strong> (pertence) e <strong>&notin;</strong> (não pertence).
-                                </p>
+                                <div class="quotes-math">
+                                    <strong><h4>Case-sensitive: </h4></strong>
+                                    <p>Em muitas linguagens os identificadores são <strong>case-sensitive</strong>, ou seja, <strong>variavel e Variavel</strong> seriam <strong>identificadores diferentes</strong>.</p>
+                                </div>
                                 <div style="text-align: justify;" class="quotes-math">
-                                    A letra O pertence ao conjunto A das vogais, logo podemos escrever da seguinte forma: O &isin; A. <br> <br>
-                                    Pela notação temos que: A = {a, e, i, o, u} <br><br>
-                                    Também temos que O &isin; A, T &notin; A.
-                                    
+                                    <strong><h4>Evitar palavras reservadas: </h4></strong>
+                                    <p>Não se pode usar <strong>palavras-chave ou reservadas da linguagem de programação</strong> como identificadores. Palavras como <strong>IF, ELSE, WHILE...</strong> são exemplos que <strong>não podem ser usadas</strong>.</p>
                                 </div>
-                                <p style="text-align: justify;">
-                                    Quando tratamos de um conjunto com relação a outro conjunto, dizemos que ele está <strong>contido</strong> (usando o símbolo <strong>&sub;</strong>) ou <strong>não está contido</strong> (usando o símbolo <strong>&nsub;</strong>).
-                                </p>
+                                <div class="quotes-math">
+                                    <strong><h4>Seguir convenções de nomeclaturas: </h4></strong>
+                                    <p>Além das regras básicas, é sempre recomendável seguir convenções como:</p>
+                                    <div class="quotes-math">
+                                        Para <strong>variáveis</strong> é recomendado usar <strong>camelCase</strong> (primeira palavra em letras minúsculas e as seguintes com inicial maiúscula) ou <strong>snake_case</strong> (palavras em letras minúsculas separar por sublinhado).
+                                    </div>
+                                    <div class="quotes-math">
+                                        Para <strong>constantes</strong> é recomendado usar letras maiúsculas separadas por sublinhado, <strong>TAXA_DE_JUROS</strong> é um bom exemplo.
+                                    </div>
+                                </div>
+                                <div class="quotes-math">
+                                    <strong><h4>Escolher nomes significativos: </h4></strong>
+                                    <p>O nome deve <strong>descrever o propósito da variável ou constante</strong> de forma clara, para <strong>facilitar a leitura e manutenção</strong> do código posteriormente.</p>
+                                    <p><strong>Exemplos: </strong></p>
+                                    <p><strong>Válido:</strong> totalVendas, NOME_PRODUTO_1</p>
+                                    <P><strong>Inválido: </strong>x, a</P>
+                                </div>
+                                <h2 id="operadores">Operadores</h2>
+                                <p>Operadores são os <strong>símbolos</strong> usados para representar as <strong>mais variadas operações</strong> que podem ser executas por um algoritmo computacional. Nas linguagens de programação alguns operadores que conhecemos, como X de multiplicação, possui uma <strong>representação diferente</strong>, mas exercendo a <strong>mesma função de multiplicar valores</strong>. Veremos também que são adicionados <strong>operadores lógicos</strong>, exercendo uma função diferente do que conhecemos. Veja as caracteristicas de cada tipo de operador:</p>
+                                <div class="quotes-math">
+                                    <h4><strong>Matemáticos</strong></h4>
+                                    <p>Em <strong>linguagens de programação</strong>, alguns operadores que aprendemos na <strong>notação matemática tradicional</strong> são representados de maneira <strong>diferente</strong>, veja: </p><br>
+                                    <table border="1">
+                                        <tr>
+                                          <th style="text-align: center; width: 250px; height: 40px;">Operação</th>
+                                          <th style="text-align: center; width: 110px; height: 40px;">Símbolo</th>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align: center; width: 110px; height: 40px;">Adição</td>
+                                          <td style="text-align: center; width: 110px; height: 40px;">+</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align: center; width: 110px; height: 40px;">Subtração</td>
+                                          <td style="text-align: center; width: 110px; height: 40px;">-</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align: center; width: 150px; height: 40px;">Multiplicação</td>
+                                          <td style="text-align: center; width: 250px; height: 40px;">*</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 110px; height: 40px;">Resto da divisão inteira</td>
+                                            <td style="text-align: center; width: 110px; height: 40px;">% (mod)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 110px; height: 40px;">Divisão inteira</td>
+                                            <td style="text-align: center; width: 110px; height: 40px;">/ (div)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 110px; height: 40px;">Exponenciação</td>
+                                            <td style="text-align: center; width: 110px; height: 40px;">mat.potencia (base, expoente)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 110px; height: 40px;">Raiz quadrada</td>
+                                            <td style="text-align: center; width: 110px; height: 40px;">mat.raiz (base, expoente)</td>
+                                        </tr>
+                                      </table>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Relacionais: </strong></h4>
+                                    <p>Estes operadores são usados para <strong>comparar strings de caractere ou número</strong>. Os valores podem retornar <strong>verdadeiro ou falso,</strong>  confira:</p><br>
+                                    <table border="1">
+                                        <tr>
+                                            <th style="text-align: center; width: 250px; height: 40px;">Operação</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">Símbolo</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Igualdade</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">==</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Diferença</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">!=</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Maior</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Maior ou igual</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">>=</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Menor</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;"><</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Menor ou igual</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;"><=</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Lógicos: </strong></h4>
+                                    <p>Estes operadores servem para <strong>combinar resultados de expressões</strong>, retornando seu valor final em <strong>verdadeiro ou falso,</strong> veja:</p><br>
+                                    <table border="1">
+                                        <tr>
+                                            <th style="text-align: center; width: 250px; height: 40px;">Operação</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">Símbolo</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;"d>Conjunção (<strong>e</strong> lógico)</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">e</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Disjunção (<strong>ou</strong> lógico)</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">ou</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Negação (<strong>não</strong> lógico)</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">nao</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <h2 id="logicos">Operadores Lógicos</h2>
+                                <p>Operadores lógicos são usados para <strong>realizar comparações entre valores ou expressões</strong>, tendo como resultado somente dois valores: <strong>verdadeiro ou falso</strong>. Eles são essenciais na tomada de decisão e criação de condições no código. Confira a seguir os operadores lógicos mais usados:</p>
+                                <div class="quotes-math">
+                                    <h4>Operador lógico <strong>e</strong> (&& ou and) -</h4>
+                                    <p>Retorna verdadeiro somente se <strong>as duas condições forem verdadeiras</strong>:</p>
+                                    <table border="1">
+                                        <tr>
+                                            <th>A</th>
+                                            <th>B</th>
+                                            <th>(A)&&(B)</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Verdadeiro</td>
+                                            <td>Verdadeiro</td>
+                                            <td>Verdadeiro</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Verdadeiro</td>
+                                            <td>Falso</td>
+                                            <td>Falso</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Falso</td>
+                                            <td>Verdadeiro</td>
+                                            <td>Falso</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Falso</td>
+                                            <td>Falso</td>
+                                            <td>Falso</td>
+                                        </tr>
+                                    </table>
+                                </div>
                                 <div style="text-align: justify;" class="quotes-math">
                                     <strong>Exemplo:</strong> o conjunto A das vogais A {a, e, i, o, u} está contido mo conjunto B das letras do alfabeto B {a, b, c, d, e ...}, temos então que A &sub; B, ou então podemos dizer que A é um sibconjunto de B.
                                 </div>
