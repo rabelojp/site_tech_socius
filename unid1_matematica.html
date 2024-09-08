@@ -130,9 +130,7 @@
                                         <a href="#subconjuntos" onclick="scrollToSection(event, 'subconjuntos')">Subconjuntos;</a><br>
                                         <a href="#cardinalide" onclick="scrollToSection(event, 'cardinalidade')">Cardinalidade;</a><br>
                                         <a href="#operacoes" onclick="scrollToSection(event, 'operacoes')">Operações entre Conjuntos;</a><br>
-                                        <a href="#">Intersecção dos Conjuntos;</a><br>
-                                        <a href="#">Diferença entre Conjuntos;</a><br>
-                                        <a href="#">Produto Cartesiano;</a><br>
+                                        <a href="produto" onclick="scrollToSection(event, 'produto')">Produto Cartesiano;</a><br>
                                         <a href="#">Propriedades das operações entre Conjuntos;</a><br>
                                         <a href="#">Propriedades distributivas;</a><br>
                                         <a href="#">Intervalos Reais.</a><br>
@@ -317,8 +315,42 @@
                                 <!-- end of section divider -->
                                 <h2 id="operacoes">Operações entre Conjuntos</h2>
                                 <p style="text-align: justify;">
-                                    
+                                    Operações entre conjuntos são <strong>processos que combinam dois ou mais conjuntos</strong> para gerar um <strong>novo conjunto</strong> com base em algumas regras matemáticas. Veja as operações mais comuns:
                                 </p>
+                                <div class="quotes-math">
+                                    <h4><strong>União</strong> ( &cup; ) -</h4>
+                                    <p>Combina <strong>todos os elementos de dois ou mais conjuntos</strong>, tendo como resultado um novo conjunto <strong>formado a partir de todos os elementos de ambos os conjuntos</strong>.</p>
+                                    <p><strong>Exemplo: </strong> Se A = {1, 2, 3} e B = {3, 4, 5}, então A &cup; B = {1, 2, 3, 4, 5}</p>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Intersecção</strong> ( &cap; ) -</h4>
+                                    <p>Retorna os valores que são <strong>comuns a dois ou mais conjuntos</strong>. O resultado é um conjunto contendo os elementos que são comuns aos dois conjuntos, ou seja, que <strong>estão presentes em ambos</strong>.</p>
+                                    <p><strong>Exemplo: </strong> Se A = {1, 2, 3} e B = {3, 4, 5}, então A &cap; B = {3}</p>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Diferença</strong> ( - ) -</h4>
+                                    <p>Tem como resultado os elementos que <strong>estão presentes em um conjunto</strong> mas <strong>não estão em outro</strong>. A diferença de A e B é o conjunto de elementos que <strong>estão em A</strong>, mas <strong>não estão em B</strong>.</p>
+                                    <p><strong>Exemplo: </strong>Se A = {1, 2, 3} e B = {3, 4, 5}, então A - B = {1, 2}</p>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Diferença Simétrica</strong> ( &#8710; ) -</h4>
+                                    <p>Retorna todos os elementos que <strong>estão em um conjunto ou no outro</strong>, mas <strong>não em ambos</strong>.</p>
+                                    <p><strong>Exemplo: </strong>Se A = {1, 2, 3} e B = {3, 4, 5}, então A &#8710; B = {1, 2, 4, 5}</p>
+                                </div>
+                                <div class="quotes-math">
+                                    <h4><strong>Complemento</strong> ( Ac ) -</h4>
+                                    <p>Mostra todos os elementos que não pertencem ao conjunto A, em relação a um conjunto universo U.</p>
+                                    <p><strong>Exemplo: </strong>Se o universo U = {1, 2, 3, 4, 5, 6} e A = {1, 2, 3}, então o complemento de A é Ac = {4, 5, 6}</p>
+                                </div>
+                                <h2 id="produto">Produto Cartesiano</h2>
+                                <p>O produto cartesiano é uma operação entre dois ou mais conjuntos que retorna como resultado um novo conjunto composto por <strong>pares de elementos desses conjuntos.</strong></p>
+                                <div class="quotes-math">
+                                    <h4>Definição:</h4>
+                                    <p>Consideremos os conjuntos A e B, o produto cartesiano de A X B é o conjunto de todos os pares ordenados (a, b), onde a é um elemento de A e b é um elemento de B. Vejamos:</p>
+                                    <p>A X B = {(a, b) | a &isin; A E B &isin; B}</p><br>
+                                    <p><strong>Exemplo: </strong>Se A = {1, 2} e B = {x, y}, o produto cartesiano A X B seria: </p>
+                                    <p>A X B = {(1, x), (1, y), (2, x), (2, y)}</p>
+                                </div>
                             </div>
                         </div>
                         

@@ -113,9 +113,9 @@
                             <div class="col-lg-3  col-md-3">
                                 <div class="blog_info text-right">
                                     <div class="post_tag">
-                                        <a href="#">Programação de Computadores,</a>
+                                        <a href="#">Programação,</a>
                                         <a class="active" href="#">Lógica,</a>
-                                        <a href="#">Negócios,</a>
+                                        <a href="#">Conceitos,</a>
                                         <a href="#">Educação</a>
                                     </div>
                                     <ul class="blog_meta list">
@@ -134,15 +134,13 @@
                                         <a href="identificadores" onclick="scrollToSection(event, 'identificadores')">Identificadores;</a><br>
                                         <a href="operadores" onclick="scrollToSection(event, 'operadores')">Operadores;</a><br>
                                         <a href="logicos" onclick="scrollToSection(event, 'logicos')">Operadores Lógicos;</a><br>
-                                        <a href="#" onclick="scrollToSection(event, 'dados')">Propriedades distributivas;</a><br>
-                                        <a href="#" onclick="scrollToSection(event, 'dados')">Intervalos Reais.</a><br>
                                     </div>
                                 </div>
                             </div>
                             <div id="introducao" class="col-lg-9 col-md-9 blog_details">
                                 <h2>Introdução</h2>
                                 <p id="introducao" style="text-align: justify;" class="excert">
-                                    A lógica é o <strong>estudo e a aplicação</strong> de regras para o <strong>raciocínio estruturado</strong>, baseado em informações iniciais utilizadas para a busca de conclusões realistas e verdadeiras. Investigando os argumentos e suas estruturas, a lógica <strong>diferencia os argumentos corretos dos incorretos</strong>. A palavra "lógica" deriva do grego logos, que significa "razão". Quando falamos algo para alguém, pressupomos que o que estamos dizendo possui lógica, ou seja, <strong>faz sentido e é uma argumentação racional</strong>.
+                                    A programação é a <strong>arte de transformar ideias em soluções</strong> que possam ser executadas por máquinas. Assim como qualquer habilidade, ela pode ser <strong>aprendida e desenvolvida</strong>, para isso é de suma importância a compreensão de alguns conceitos essenciais. Confira nesse unidade alguns termos importantes da área.
                                 </p>
                                 <!-- Section Divider -->
                                 <div class="container">
@@ -450,191 +448,110 @@
                                         </tr>
                                         <tr>
                                             <td style="text-align: center; width: 250px; height: 40px;"d>Conjunção (<strong>e</strong> lógico)</td>
-                                            <td style="text-align: center; width: 250px; height: 40px;">e</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">&& ou AND</td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center; width: 250px; height: 40px;">Disjunção (<strong>ou</strong> lógico)</td>
-                                            <td style="text-align: center; width: 250px; height: 40px;">ou</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">|| ou OR</td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: center; width: 250px; height: 40px;">Negação (<strong>não</strong> lógico)</td>
-                                            <td style="text-align: center; width: 250px; height: 40px;">nao</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">! ou NOT</td>
                                         </tr>
                                     </table>
                                 </div>
                                 <h2 id="logicos">Operadores Lógicos</h2>
                                 <p>Operadores lógicos são usados para <strong>realizar comparações entre valores ou expressões</strong>, tendo como resultado somente dois valores: <strong>verdadeiro ou falso</strong>. Eles são essenciais na tomada de decisão e criação de condições no código. Confira a seguir os operadores lógicos mais usados:</p>
                                 <div class="quotes-math">
-                                    <h4>Operador lógico <strong>e</strong> (&& ou and) -</h4>
-                                    <p>Retorna verdadeiro somente se <strong>as duas condições forem verdadeiras</strong>:</p>
+                                    <h4>Operador lógico <strong>e</strong> (&& ou AND) -</h4>
+                                    <p>Retorna verdadeiro somente se <strong>as duas condições forem verdadeiras:</strong></p><br>
                                     <table border="1">
                                         <tr>
-                                            <th>A</th>
-                                            <th>B</th>
-                                            <th>(A)&&(B)</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">A</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">B</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">(A)&&(B)</th>
                                         </tr>
                                         <tr>
-                                            <td>Verdadeiro</td>
-                                            <td>Verdadeiro</td>
-                                            <td>Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
                                         </tr>
                                         <tr>
-                                            <td>Verdadeiro</td>
-                                            <td>Falso</td>
-                                            <td>Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
                                         </tr>
                                         <tr>
-                                            <td>Falso</td>
-                                            <td>Verdadeiro</td>
-                                            <td>Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
                                         </tr>
                                         <tr>
-                                            <td>Falso</td>
-                                            <td>Falso</td>
-                                            <td>Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
                                         </tr>
-                                    </table>
+                                    </table><br>
+                                    <p><strong>Exemplo: </strong>(5 > 3)&&(2 < 4) retorna <strong>verdadeiro</strong></p>
                                 </div>
-                                <div style="text-align: justify;" class="quotes-math">
-                                    <strong>Exemplo:</strong> o conjunto A das vogais A {a, e, i, o, u} está contido mo conjunto B das letras do alfabeto B {a, b, c, d, e ...}, temos então que A &sub; B, ou então podemos dizer que A é um sibconjunto de B.
-                                </div>
-                                <p style="text-align: justify;">
-                                    Exitem diversos tipos de conjuntos, os mais utilizados são:
-                                </p>
-                                <ul>
-                                    <li><strong>N</strong> - Naturais;</li>
-                                    <li><strong>Z</strong> - Inteiros;</li>
-                                    <li><strong>Q</strong> - Racionais;</li>
-                                    <li><strong>R</strong> - Reais;</li>
-                                    <li><strong>C</strong> - Complexos</li>
-                                </ul><br>
-                                <h3><strong>N - </strong>Conjunto dos números Naturais</h3>
                                 <div class="quotes-math">
-                                    <strong>N</strong> = {0, 1, 2, 3, 4, 5, 6...}
+                                    <h4>Operador lógico <strong>ou</strong> (|| ou OR) -</h4>
+                                    <p>Retorna verdadeiro se ao <strong>menos uma das condições forem verdadeiras:</strong></p><br>
+                                    <table border="1">
+                                        <tr>
+                                            <th style="text-align: center; width: 250px; height: 40px;">A</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">B</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">(A)||(B)</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                        </tr>
+                                    </table><br>
+                                    <p><strong>Exemplo: </strong>(5 > 3)||(2 > 4) retorna <strong>verdadeiro</strong></p>
                                 </div>
-                                <p style="text-align: justify;">
-                                    Neste conjunto temos a noção de <strong>ordem</strong>, ou seja, 0 é menor que qualquer número natural; 1 é menor que 2, então: 1 < 2, assim como: 2 < 3 < 4 < 5...
-                                </p><br>
-                                
-                                <h3><strong>Z - </strong>Conjunto dos números Inteiros</h3>
                                 <div class="quotes-math">
-                                   <strong>Z</strong> = {-3, -2, -1, 0, 1, 2, 3...}
+                                    <h4>Operador lógico <strong>nao</strong> (! ou NOT) -</h4>
+                                    <p><strong>Inverte o valor lógico de uma condição</strong>, tornado verdadeiro o que era falso e vice-versa:</p><br>
+                                    <table border="1">
+                                        <tr>
+                                            <th style="text-align: center; width: 250px; height: 40px;">A</th>
+                                            <th style="text-align: center; width: 250px; height: 40px;">!(A)</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Falso</td>
+                                            <td style="text-align: center; width: 250px; height: 40px;">Verdadeiro</td>
+                                        </tr>
+                                    </table><br>
+                                    <p><strong>Exemplo: </strong>!(5 > 3) retorna <strong>falso</strong></p>
                                 </div>
-                                <p style="text-align: justify;">O conjunto <strong>Z</strong> é formando quando os números <strong>negativos são acrescentados ao conjunto dos naturais N</strong>. Neste conjunto, a noção de ordem também prevalece, pois um número X e menor que outro Y se o primeiro vem antes do segundo, ou seja: X < Y.</p><br>
-
-                                <h3><strong>Q -</strong> Conjunto dos números Racionais</h3>
-                                <p style="text-align: justify;">Número racional vem de razão ou divisão. Podemos escrever o conjunto <strong>Q</strong> dos racionais da seguinte forma:</p>
                                 <div class="quotes-math">
-                                    <strong>Q</strong> = {a/b| a &isin; Z e b &isin; Z, b &ne; 0}
+                                    <h4>Operador lógico de <strong>atribuição </strong>( = ) -</h4>
+                                    <p>Para <strong>atribuirmos um valor</strong> à uma variável/constante em um algoritmo, utilizamos o <strong>operador de atribuição</strong>, representado pelo sinal de igual:</p>
+                                    <p><strong>Exemplo: </strong>clientes = 30; a variável <strong>clientes</strong> agora possui o valor <strong>30</strong> armazenado nela</p>
                                 </div>
-                                <p style="text-align: justify;">Podemos concluir que: o conjunto dos racionais Q é constituído por qualquer número expressado como a divisão de <strong>a</strong> por <strong>b</strong>, sendo esses números <strong>inteiros</strong> e <strong>b &ne; 0</strong>. Com isso, podemos afirmar que as razões 1/2, 1/3, 3/4 são números racionais. É possível afirmar também que 2 pode ser classificado como racional, pois 2 = 2/4 = 4/8 = 20/10.</p>
-                                <p style="text-align: justify;">Todo número racional escrito na forma de fração <strong>a/b</strong> possui sua representação decimal (resultado da dvisão de <strong>a por b</strong>).</p>
-                                <div class="quotes-math">
-                                    <strong>Exemplo: </strong>1/2 = 0,5 ou 1/3 = 0,333... 
-                                </div>
-                                <p style="text-align: justify;"><strong>CASOS A PARTE: </strong>os números <strong>&radic;2</strong>, <strong>&radic;5</strong> e <strong>&pi;</strong> não são possíveis de serem escritos na forma fracionária <strong>a/b</strong> por possuírem infinitos dígitos e não formarem períodos, são chamados de números irracionais.</p>
-                                <p style="text-align: justify;"><strong>obs: </strong>os números irracionais <strong>não fazem parte</strong> do conjunto dos racionais.</p><br>
-
-                                <h3><strong>R -</strong> Conjunto dos números Reais</h3>
-                                <p style="text-align: justify;">O conjunto do números reais R é formado a partir da <strong>união</strong> dos conjuntos dos números <strong>racionais e irracionais</strong>.</p>
-                                <div class="quotes-math">
-                                    <strong>Exemplo: </strong>&radic;2 &isin; R, &pi; &isin; R, 1/4 &isin; R, 2 &isin; R, 0 &isin; R, -4 &isin; R
-                                </div>
-                                <p style="text-align: justify;">Podemos afirmar que <strong>todos os números</strong> pertencem ao conjunto R? <strong>NÃO!</strong> Nos números reais, não existem raízes pares de números negativos.</p>
-                                <div class="quotes-math">
-                                    <strong>Exemplo: </strong>&radic;5 &isin; R, porém, &radic;-5 &notin; R
-                                </div><br>
-                                <h3><strong>C - </strong>Conjunto dos números Complexos</h3>
-                                <p style="text-align: justify;">O conjunto C é constituído pela unidade imaginária <strong>i</strong> que por definição temos que: &radic;-1 = <strong>i</strong>, então a partir dessa definição temos que o conjunto C pode ser escrito como <strong>a + bi.</strong></p>
-                                <div class="quotes-math">
-                                    <strong>C</strong> = {a + bi | a &isin; R, b &isin; R e i = -1}
-                                </div>
-                                <!-- Section Divider -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <hr class="section-divider">
-                                        </div> <!-- end of col -->
-                                    </div> <!-- end of row -->
-                                </div> <!-- end of container -->
-                                <!-- end of section divider -->
-                                <h2 id="representacao">Representação dos Conjuntos</h2>
-                                <p style="text-align: justify;">
-                                    Os conjuntos podem ser representados de diversas maneiras, podemos explicar cada um de seus elementos, citar uma propriedade em comum e também podemos representa-los por diagrama
-                                </p>
-                                <div class="quotes-math">
-                                    <strong>Por exemplo: </strong>Considere que A é o conjunto dos números naturais pares entre 2 e 12, e B é o conjunto dos números naturais maiores ou iguais a 1 e menores que 6 <br><br><strong>Representação por citação:</strong><br><br>A = {2, 4, 6, 8, 10, 12}; B = {1, 2, 3, 4, 5} <br><br> <strong>Representação por uma propriedade em comum: <br><br></strong> A = {x &isin; N | 2 =< x =< 12 e x é par}; B = { x &isin; N | 1 =< x =< 6} <br><br> <strong>Representação por diagramas:</strong> <br><br>
-                                    <div class="col-lg-12 col-md-9">
-                                        <div class="feature-img">
-                                            <img class="img-fluid" src="images/diagrama1.webp" alt="">
-                                        </div>									
-                                    </div>
-                                </div>
-                                <!-- Section Divider -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <hr class="section-divider">
-                                        </div> <!-- end of col -->
-                                    </div> <!-- end of row -->
-                                </div> <!-- end of container -->
-                                <!-- end of section divider -->
-                                <h2 id="subconjuntos">Subconjuntos</h2>
-                                <p>Como já vimos, um conjunto <strong>pode estar contido ou não em outro conjunto</strong>. Na teoria dos conjuntos, temos que para cada conjunto existe uma coleção de conjuntos que contém entre seus elementos todos os subconjuntos do conjunto dado.</p>
-                                <p>Ou seja, dado um conjunto A podemos dizer que ele é subconjunto de um conjunto B se, e somente se, <strong>todo(s) o(s) elemento(s) de A pertence(m) também a B</strong>.</p>
-                                <div class="quotes-math">
-                                    <strong>A &sub; B <-> (<p style="display: inline-block; transform: rotate(180deg);">A</p>x)(x &isin; A -> x &isin; B)</strong><br><br>
-                                    <strong>ATENÇÃO!</strong><br><br>O símbolo <p style="display: inline-block; transform: rotate(180deg);">A</p> representa qualquer, ou seja, qualquer que seja o elemento x em A, quando falamos qualquer estamos considerando qualquer elemento, ou seja: <strong>todos os elementos.</strong>
-                                </div>
-                                <p>Os subconjuntos podem ser compreendidos como conjuntos que estão, na totalidade, em <strong>outros conjuntos</strong> como podemos oservar na ilustração abaixo:</p><br>
-                                <div class="col-lg-12 col-md-9">
-                                    <div class="feature-img">
-                                        <img class="img-fluid" src="images/diagrama2.webp" alt="">
-                                    </div>									
-                                </div><br><br>
-                                <p>Agora temos uma nova relação, não mais entre elemento e conjunto, mas entre conjuntos, a chamada <strong>Relação de Inclusão.</strong></p>
-                                <div class="quotes-math">
-                                    <strong>Exemplo: </strong>o conjunto dos números ímpares <strong>I</strong> está contido no conjunto B dos números inteiros de 0 a 10. <br><br>
-                                    Então temos: B {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; I {1, 3, 5, 7, 9} <br><br>
-                                    Com isso, concluímos que todos os elementos de I <strong>pertecem a B</strong>, então I &sub; B. Representando por diagrama, temos: <br><br>
-                                    <div class="col-lg-12 col-md-9">
-                                        <div class="feature-img">
-                                            <img class="img-fluid" src="images/diagrama3.webp" alt="">
-                                        </div>									
-                                    </div>
-                                </div>
-                                <!-- Section Divider -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <hr class="section-divider">
-                                        </div> <!-- end of col -->
-                                    </div> <!-- end of row -->
-                                </div> <!-- end of container -->
-                                <!-- end of section divider -->
-                                <h2 id="cardinalidade">Cardinalidade</h2>
-                                <p>Vamos considerar como A um conjunto qualquer, <strong>o número de elementos de A é chamado de cardinalidade</strong>, sendo representado por <strong>>#A ou n(A).</strong></p>
-                                <div class="quotes-math">
-                                    <strong>Primeiro exemplo: </strong>dado o conjunto D dos números primos entre 6 e 20, tem sua cardinalidade igual a 5, representada por #D ou n(D) ou |D| = 5, já que o conjunto é formado por D = {7, 11, 13, 17, 19} <br><br><strong>Segundo exemplo:</strong> o conjunto B das raízes reais da equação x² - 8x + 1 = 5, nesse caso, como B {3,5}, tendo dois elementos, logo: n(B) = 2, #B = 2 ou |B| = 2
-                                </div>
-                                <p>Vale destacar que a cardinalidade do conjunto vazio {} é 1, ou seja, #{} = 1, pois é considerado que <strong>dentro de qualquer conjunto vazio existe um outro conjunto vazio</strong>, ou seja, o conjunto vazio {} é um subconjuno de qualquer outro conjunto.</p>
-                                <div class="quotes-math">
-                                    Agora a cardinalidade dos conjuntos numéricos <strong>N, Z, Q, R e C</strong> é infinita, logo: <strong>#N, #Z, #Q, #R, #C = &infin; (infinito)</strong>
-                                </div>
-                                <p>Ainda fazemos constar que: se um <strong>conjunto possui somente 1 elemento</strong>, ele é chamado de <strong>conjunto unitário</strong>, se possui <strong>2 elementos</strong> ele é chamado de <strong>conjunto binário</strong> etc. Se um conjunto é <strong>referência para outro conjunto</strong> ele é chamado de <strong>conjunto Universo.</strong></p>
-                                <!-- Section Divider -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <hr class="section-divider">
-                                        </div> <!-- end of col -->
-                                    </div> <!-- end of row -->
-                                </div> <!-- end of container -->
-                                <!-- end of section divider -->
-                                <h2 id="operacoes">Operações entre Conjuntos</h2>
-                                <p style="text-align: justify;">
-                                    
-                                </p>
+                                <h2>Final</h2>
+                                <p>Bem, chegamos ao final da unidade, agradeço muito por ter lido até aqui, essa unidade foi desenvolvida tendo como base os materiais disponibilizados pelo professor Alfredo Neto e alguns materiais online para pequisa e complemento das informações. Caso tenha algum comentário ou recomendação, peço para que entre em contato, é de suma importância receber feedbacks dos leitores. Muito obrigado e até a próxima unidade!</p>
                             </div>
                         </div>
                         
