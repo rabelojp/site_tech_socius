@@ -131,7 +131,7 @@
                                         <a href="#cardinalide" onclick="scrollToSection(event, 'cardinalidade')">Cardinalidade;</a><br>
                                         <a href="#operacoes" onclick="scrollToSection(event, 'operacoes')">Operações entre Conjuntos;</a><br>
                                         <a href="produto" onclick="scrollToSection(event, 'produto')">Produto Cartesiano;</a><br>
-                                        <a href="#">Propriedades das operações entre Conjuntos;</a><br>
+                                        <a href="propriedades" onclick="scrollToSection(event, 'propriedades')">Propriedades das operações entre Conjuntos;</a><br>
                                         <a href="#">Propriedades distributivas;</a><br>
                                         <a href="#">Intervalos Reais.</a><br>
                                     </div>
@@ -342,6 +342,15 @@
                                     <p>Mostra todos os elementos que não pertencem ao conjunto A, em relação a um conjunto universo U.</p>
                                     <p><strong>Exemplo: </strong>Se o universo U = {1, 2, 3, 4, 5, 6} e A = {1, 2, 3}, então o complemento de A é Ac = {4, 5, 6}</p>
                                 </div>
+                                <!-- Section Divider -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <hr class="section-divider">
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div> <!-- end of container -->
+                                <!-- end of section divider -->
                                 <h2 id="produto">Produto Cartesiano</h2>
                                 <p>O produto cartesiano é uma operação entre dois ou mais conjuntos que retorna como resultado um novo conjunto composto por <strong>pares de elementos desses conjuntos.</strong></p>
                                 <div class="quotes-math">
@@ -351,6 +360,98 @@
                                     <p><strong>Exemplo: </strong>Se A = {1, 2} e B = {x, y}, o produto cartesiano A X B seria: </p>
                                     <p>A X B = {(1, x), (1, y), (2, x), (2, y)}</p>
                                 </div>
+                                <!-- Section Divider -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <hr class="section-divider">
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div> <!-- end of container -->
+                                <!-- end of section divider -->
+                                <h2 id="propriedades">Propriedades das Operações entre Conjuntos</h2>
+                                <p>
+                                    São várias as propriedades das operações entre conjuntos, elas nos ajudam a <strong>entender como os conjunto se relacionam e se comportam</strong>. As propriedades são válidas para operações como <strong>União, Intersecção e Diferença.</strong> Confira abaixo as informações sobre essas propriedades:
+                                    <div class="quotes-math">
+                                        <h1>Propriedades da União ( &cup; )-</h1><br>
+                                        <p><strong>- Comutatividade: </strong>A <strong>ordem</strong> dos conjuntos <strong>não altera o resultado final</strong>, então:</p>
+                                        <h3>A &cup; B = B &cup; A</h3><br>
+                                        <p><strong>- Associatividade: </strong>A <strong>união</strong> de vários conjuntos pode ser feita <strong>agrupando-os de qualquer maneira</strong>, ou seja:</p>
+                                        <h3>(A &cup; B) &cup; C = A &cup; (B &cup; C)</h3><br>
+                                        <p><strong>- Elemento Neutro: </strong>A <strong>união </strong>de um <strong>conjunto com o conjunto vazio &empty;</strong> resulta no <strong>próprio conjunto,</strong> veja:</p>
+                                        <h3>A &cup; &empty; = A</h3><br>
+                                        <p><strong>- Idempotência: </strong>A <strong>união</strong> de um conjunto com <strong>ele mesmo</strong> resulta no <strong>próprio conjunto</strong>, então:</p>
+                                        <h3>A &cup; A = A</h3><br>
+                                        <p><strong>- Dominação:</strong> A <strong>união</strong> de um conjunto com o <strong>conjunto universo U</strong> tem como resultado o <strong>conjunto universo U</strong>, ou seja:</p>
+                                        <h3>A &cup; U = U</h3><br>
+                                        <!-- Section Divider -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <hr class="section-divider ">
+                                                </div> <!-- end of col -->
+                                            </div> <!-- end of row -->
+                                        </div> <!-- end of container -->
+                                        <!-- end of section divider -->
+                                        <br><h1>Propriedades da Intersecção ( &cap; ) -</h1><br>
+                                        <p><strong>- Comutatividade: </strong>A <strong>ordem</strong> dos conjuntos <strong>não altera o resultado</strong>, então:</p>
+                                        <h3>A &cap; B = B &cap; A</h3><br>
+                                        <p><strong>- Elemento Neutro: </strong>A <strong>intersecção </strong>de um conjunto com o <strong>conjunto universo U</strong> resulta no <strong>prórprio conjunto</strong>, veja: </p>
+                                        <h3>A &cap; U = A</h3><br>
+                                        <p><strong>- Idempotência: </strong>A <strong>intersecção</strong> de um conjunto <strong>consigo mesmo</strong> resultado no <strong>próprio conjunto</strong>, então:</p>
+                                        <h3>A &cap; A = A</h3><br>
+                                        <p><strong>- Absorção:</strong> A <strong>intersecção</strong> de um conjunto com o <strong>conjunto vazio &empty; </strong>resulta no <strong>conjunto &empty;</strong>, ou seja:</p>
+                                        <h3>A &cap; &empty; = &empty;</h3><br>
+                                        <!-- Section Divider -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <hr class="section-divider ">
+                                                </div> <!-- end of col -->
+                                            </div> <!-- end of row -->
+                                        </div> <!-- end of container -->
+                                        <!-- end of section divider -->
+                                        <br><h1>Propriedades da Diferença ( - ) -</h1><br>
+                                        <p><strong>- Elemento Neutro: </strong>A <strong>diferença</strong> de um conjunto com o <strong>conjunto vazio &empty;</strong> resulta no <strong>conjunto vazio &empty;</strong>, então:</p>
+                                        <h3>A - &empty; = &empty;</h3><br>
+                                        <p><strong>- Dominação: </strong>A <strong>diferença</strong> entre um um <strong>conjunto e ele mesmo</strong> resulta no <strong>conjunto vazio &empty;</strong>, veja:</p>
+                                        <h3>A - A = &empty;</h3><br>
+                                        <p><strong>- Identidade:</strong> A <strong>diferença</strong> de um conjunto com o <strong>conjunto universo U</strong> resulta no <strong>conjunto vazio &empty;</strong>, ou seja:</p>
+                                        <h3>A - U = &empty;</h3><br>
+                                        <p><strong>- Subconjunto: </strong>Se A &#8838; B, então A - B = &empty;</p><br>
+                                        <!-- Section Divider -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <hr class="section-divider ">
+                                                </div> <!-- end of col -->
+                                            </div> <!-- end of row -->
+                                        </div> <!-- end of container -->
+                                        <!-- end of section divider -->
+                                         <br><h1>Propriedades da Diferença Simétrica ( &#8710; ) -</h1><br>
+                                         <p><strong>- Comutatividade: </strong>A <strong>diferença simétrica</strong> é comutativa, ou seja, <strong>a ordem dos conjuntos não altera o resultado</strong>, confira:</p>
+                                         <h3>A &#8710; B = B &#8710; A</h3><br>
+                                         <p><strong>- Elemento Neutro:</strong> A <strong>diferença simétrica</strong> de um conjunto com um conjunto vazio resulta no <strong>próprio conjunto</strong>, então:</p>
+                                         <h3>A &#8710; &empty; = A</h3><br>
+                                         <!-- Section Divider -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <hr class="section-divider ">
+                                                </div> <!-- end of col -->
+                                            </div> <!-- end of row -->
+                                        </div> <!-- end of container -->
+                                        <!-- end of section divider -->
+                                         <br><h1>Propriedades do Complemento (Ac) -</h1><br>
+                                         <p><strong>- Complemento do Universo: </strong>O <strong>complemento</strong> do conjunto universo U é o <strong>conjunto vazio &empty;</strong>, veja:</p>
+                                         <h3>U<sup style="color: #777777;">c</sup> = &empty;</h3><br>
+                                         <p><strong>- Complemento do Conjunto Vazio:</strong> O <strong>complemento</strong> do conjunto vazio é o <strong>conjunto universo U</strong>, confira:</p>
+                                         <h3>&empty;<sup style="color: #777777;">c</sup> = U</h3><br>
+                                         <p><strong>- Leis de Morgan: </strong>Relacionam a <strong>União e Intersecção</strong> com os complementos, então:</p>
+                                         <h3>(A &cup; B)<sup style="color: #777777;">c</sup> = A<sup style="color: #777777;">c</sup> &cap; B<sup style="color: #777777;">c</sup></h3>
+                                         <h3>(A &cap; B)<sup style="color: #777777;">c</sup> = A<sup style="color: #777777;">c</sup> &cup; B<sup style="color: #777777;">c</sup></h3>
+                                    </div>
+                                </p>
                             </div>
                         </div>
                         
