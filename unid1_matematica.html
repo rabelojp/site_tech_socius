@@ -132,8 +132,8 @@
                                         <a href="#operacoes" onclick="scrollToSection(event, 'operacoes')">Operações entre Conjuntos;</a><br>
                                         <a href="produto" onclick="scrollToSection(event, 'produto')">Produto Cartesiano;</a><br>
                                         <a href="propriedades" onclick="scrollToSection(event, 'propriedades')">Propriedades das operações entre Conjuntos;</a><br>
-                                        <a href="#">Propriedades distributivas;</a><br>
-                                        <a href="#">Intervalos Reais.</a><br>
+                                        <a href="distributivas" onclick="scrollToSection(event, 'distributivas')">Propriedades distributivas;</a><br>
+                                        <a href="intervalos" onclick="scrollToSection(event, 'intervalos')">Intervalos Reais.</a><br>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +295,7 @@
                                 </div> <!-- end of container -->
                                 <!-- end of section divider -->
                                 <h2 id="cardinalidade">Cardinalidade</h2>
-                                <p>Vamos considerar como A um conjunto qualquer, <strong>o número de elementos de A é chamado de cardinalidade</strong>, sendo representado por <strong>>#A ou n(A).</strong></p>
+                                <p>Vamos considerar como A um conjunto qualquer, <strong>o número de elementos de A é chamado de cardinalidade</strong>, sendo representado por <strong>#A ou n(A).</strong></p>
                                 <div class="quotes-math">
                                     <strong>Primeiro exemplo: </strong>dado o conjunto D dos números primos entre 6 e 20, tem sua cardinalidade igual a 5, representada por #D ou n(D) ou |D| = 5, já que o conjunto é formado por D = {7, 11, 13, 17, 19} <br><br><strong>Segundo exemplo:</strong> o conjunto B das raízes reais da equação x² - 8x + 1 = 5, nesse caso, como B {3,5}, tendo dois elementos, logo: n(B) = 2, #B = 2 ou |B| = 2
                                 </div>
@@ -449,9 +449,57 @@
                                          <h3>&empty;<sup style="color: #777777;">c</sup> = U</h3><br>
                                          <p><strong>- Leis de Morgan: </strong>Relacionam a <strong>União e Intersecção</strong> com os complementos, então:</p>
                                          <h3>(A &cup; B)<sup style="color: #777777;">c</sup> = A<sup style="color: #777777;">c</sup> &cap; B<sup style="color: #777777;">c</sup></h3>
-                                         <h3>(A &cap; B)<sup style="color: #777777;">c</sup> = A<sup style="color: #777777;">c</sup> &cup; B<sup style="color: #777777;">c</sup></h3>
+                                         <h3>(A &cap; B)<sup style="color: #777777;">c</sup> = A<sup style="color: #777777;">c</sup> &cup; B<sup style="color: #777777;">c</sup></h3><br>
+                                         <!-- Section Divider -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <hr class="section-divider ">
+                                                </div> <!-- end of col -->
+                                            </div> <!-- end of row -->
+                                        </div> <!-- end of container -->
+                                        <!-- end of section divider -->
+                                        <br><h2 id="distributivas">Propriedades distributivas</h2>
+                                        <p>A chamada <strong>propriedade distributiva de conjuntos </strong>diz respeito as operações de <strong>União ( &cup; )</strong> e <strong>Intersecção ( &cap; )</strong> entre conjuntos. Essa propriedade afirma que a Intersecção e união podem ser distribuídas de forma semelhante à <strong>multiplicação e adição na aritmética.</strong></p>
+                                        <div class="quotes-math">
+                                            <h3>Propriedade distributiva de intersecção sobre a união:</h3><br>
+                                            <p>Consideremos os conjuntos A, B e C:</p>
+                                            <h4>A &cap; ( B &cup; C ) = ( A &cap; B) &cup; ( A &cap; C)</h4><br>
+                                            <p>Isso significa que a <strong>intersecção de A com a união de B e C</strong> é igual à <strong>união das intersecções de A com B e A com C.</strong></p>
+                                        </div>
+                                        <div class="quotes-math">
+                                            <h3>Propriedade distributiva da união sobre a intersecção:</h3><br>
+                                            <p>Também existe o inverso da propriedade anterior:</p>
+                                            <h4>A &cup; ( B &cap; C) = (A &cup; B) &cap; (A &cup; C)</h4><br>
+                                            <p>Essa propriedade indica que a <strong>união de A com a intersecção de B e C</strong> é igual à <strong>intersecção das uniões de A com B e A com C.</strong></p>
+                                        </div>
                                     </div>
                                 </p>
+                                <h2 id="intervalos">Intervalos Reais</h2>
+                                <p>Intervalos reais são <strong>subconjuntos dos números reais R</strong> que representam <strong>todos os números contidos entre dois valores</strong>, estes valores são então chamados de extremos do intervalo. Os intervalor podem ser <strong>limitados ou ilimitados</strong>, dependendo se <strong>possuem ou não limite definido.</strong></p>
+                                <div class="quotes-math">
+                                    <h3>Tipos de Intervalos Reais: </h3>
+                                    <div class="quotes-math">
+                                        <p><strong>- Intervalos fechados: </strong><strong>Inclui</strong> os dois extremos do intervalo, sendo representado por colchetes:</p>
+                                        <p>[a, b] = {x &isin; R | a =< x =< b}</p>
+                                        <p><strong>Exemplo:</strong> [1, 5] inclui todos os números entre 1 e 5, <strong>incluindo 1 e 5</strong></p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <p><strong>- Intervalos abertos:</strong><strong> Não inclui</strong> os extremos do intervalo. Representado usando os parênteses:</p>
+                                        <p>(a, b) = {x &isin; R | a =< x =< b}</p>
+                                        <p><strong>Exemplo: </strong>(1, 5) inclui todos os números entre 1 e 5, <strong>mas não inclui 1 e 5</strong></p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <p><strong>- Intervalos semiabertos ou semifechados: </strong>Inclui <strong>apenas um dos extremos:</strong></p>
+                                        <p>[a, b) ou (a, b]</p>
+                                        <p><strong>Exemplo: </strong>[1, 5) <strong>inclui 1</strong>, mas não <strong>inclui 5</strong></p>
+                                    </div>
+                                    <div class="quotes-math">
+                                        <p><strong>- Intervalos infinito: </strong>Um dos extremos pode ser o infinito ( &infin; ) ou menos infinito ( -&infin;), representando que o intervalo <strong>não tem limite superior ou inferior:</strong> </p>
+                                        <p>( -&infin;, b], [a, +&infin; )</p>
+                                        <p><strong>Exemplo: </strong>( -&infin;, 5] representa todos os números menores que 5, ( 3, +&infin; ) inclui todos os números maiores que 3, sem limite superior</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         
