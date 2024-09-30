@@ -87,11 +87,8 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
-						<h2>UNIDADE 1</h2>
-						<div class="page_link">
-							<a href="index.html">Matemática</a>
-							<a href="single-blog.html">Unidade I</a>
-						</div>
+						<h2>Conceitos Fundamentais</h2>
+                        <p style="margin-top: 1rem;">Confira abaixos os Conceitos Fundamentais para utilizar a plataforma de desenvolvimento .NET da Microsoft </p>
 						
 					</div>
 				</div>
@@ -107,20 +104,20 @@
                         <div class="single-post row">
                             <div class="col-lg-12 col-md-9">
                                 <div class="feature-img">
-                                    <img class="img-fluid" src="img - PORT/blog/feature-img2.webp" alt="">
+                                    <img class="img-fluid" src="img - PORT/blog/feature-img4.webp" alt="">
                                 </div>									
                             </div>
                             <div class="col-lg-3  col-md-3">
                                 <div class="blog_info text-right">
                                     <div class="post_tag">
-                                        <a href="#">Matemática,</a>
-                                        <a class="active" href="#">Lógica,</a>
-                                        <a href="#">Negócios,</a>
+                                        <a href="#">Framework,</a>
+                                        <a class="active" href="#">Tecnologia,</a>
+                                        <a href="#">Programação,</a>
                                         <a href="#">Educação</a>
                                     </div>
                                     <ul class="blog_meta list">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/rabelojp/">João Paulo da Costa Rabelo<i class="lnr lnr-user"></i></a></li>
-                                        <li><a href="#">02 de Setembro, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">17 de setembro, 2024<i class="lnr lnr-calendar-full"></i></a></li>
                                     </ul><br>
                                     <div>
                                         <h4>Índice</h4>
@@ -139,34 +136,59 @@
                                 </div>
                             </div>
                             <div id="introducao" class="col-lg-9 col-md-9 blog_details">
-                                <h1>Conjuntos</h1>
                                 <h2>Introdução</h2>
                                 <p id="introducao" style="text-align: justify;" class="excert">
-                                    Essa unidade, em conjunto com as outras, vão formalizar alguns conceitos da linguagem matemática vistos no Ensino Médio, visando uma maior maturidade de pensamento. Vamos começar?
+                                    Nesse artigo, você encontrará os principais conceitos sobre a plataforma de desenvolvimento .NET da Microsoft, suas características, informações relevantes e demais dados sobre essa framework poderosa.
                                 </p>
                                 <h2 id="conjuntos">Definição</h2>
                                 <p style="text-align: justify;">
-                                    Um agrupamento de objetos ou elementos é chamado de <strong>conjunto</strong> na matemática, podendo ser uma coleção de objetos quaisquer, até mesmo outros conjuntos.
+                                    O .NET por definição é uma plataforma para criação de vários tipos de aplicativos, pode executar programas escritos em diversas linguagens de programação, com o C# sendo os mais populares. É um framework gratuito, multiplataforma e de código aberto. Uma das principais características do .NET é o gerenciamento automático de memória por um <strong>coletor de lixo (GC):</strong>
                                 </p>
                                 <div class="quotes-math">
-                                    <strong>Exemplo:</strong> conjunto dos números pares, conjunto das letras do alfabeto, conjunto das cores primárias.
+                                    O Coletor de Lixo (GC) do .NET consiste em um mecanismo de gerenciamento automático de memória que <strong>remove objetos da memória que não estão sendo mais utilizados pelo programa.</strong> Tem como principal função liberar a memória ocupada por esses objetos "inúteis", evitando vazamento de memória e otimizando o uso de recursos.
                                 </div>
                                 <p style="text-align: justify;">
-                                    Para representarmos um conjunto utilizamos um par de chaves { }, que são usadas para indicar o <strong>início e o término</strong> da delimitação dos <strong>elementos</strong> de um conjunto, e esses são separados por vírgula dentro das chaves. 
+                                    Ele inclui uma grande variedade de bibliotecas que possuem ampla funcionalidade e foram otimizadas para desempenho em vários sistemas operacionais e arquiteturas de chip.
                                 </p><br>
-                                <div style="text-align: justify;" class="quotes-math">
-                                    <strong>Exemplo:</strong> o conjunto dos números primos <strong>menores</strong> que 20 { 2, 3, 5, 7, 11, 13, 17}
-                                </div>
                             </div>
                             <div class="col-lg-12 col-md-9 blog_details" style="border-width: 1rem;">
+                                <h2>Pontos de Design</h2>
                                 <p style="text-align: justify;">
-                                    Para deixar bem clara a ideia de conjunto, utilizamos as chaves { } e, geralmente, indicamos o nome do conjunto com uma <strong>letra maiúscula</strong>:
+                                    <ul>
+                                        <li><strong>Produtividade de pilha completa</strong> com runtime, bibliotecas, idioma e ferramentas, contribuindo para a experiência do usuário/desenvolvedor.</li>
+                                        <li><strong>Código seguro</strong> é o modelo de computação primário, enquanto o código não seguro permite realizar otimizações manuais adicionais.</li>
+                                        <li><strong>Código estático e dinâmico</strong> possuem suporte, o que permite um amplo conjunto de cenários distintos.</li>
+                                        <li><strong>Interoperabilidade de código nativo e intrínsecos de hardware</strong> tem um baixo custo de alta fidelidade (API bruta e acesso de instrução).</li>
+                                        <li><strong>Código portátil entre várias plataformas</strong> (sistema operacional e arquitetura de chip), enquanto a segmentação por plataforma permite especialização e otimização.</li>
+                                        <li><strong>Adaptabilidade entre domínios de programação</strong> (nuvem, cliente, jogos) está presente com implementações especializadas do modelo de programação de uso geral.</li>
+                                        <li><strong>Padrões do setor,</strong> como o OpenTelemetry e gRPC, são favorecidos em relação ás soluções sob medida.</li>
+                                    </ul>
+                                </p>
+                                <h2>Componentes</h2>
+                                <ul>
+                                    <li><strong>Runtime - </strong>executa o código do aplicativo.</li>
+                                    <li><strong>Bibliotecas - </strong>fornece funcionalidade de utilitário como Análise JSON.</li>
+                                    <li><strong>Compilador -</strong>compila o código-fonte em C# (e outras linguagens) no código executável (runtime).</li>
+                                    <li><strong>SDK e outras ferramentas - </strong> habilita a criação e o monitoramento dos aplicativos com fluxos de trabalho modernos.</li>
+                                    <li><strong>Pilhas de aplicativos - </strong>como ASP.NET Core e Windows Forms, que permitem a gravação de aplicativos.</li>
+                                </ul>
+                                <p style="text-align: justify;">
+                                    Os pilares da pilha do .NET são: <strong>runtime, biliotecas e as linguagens.</strong> Os componentes de nível superior, como ferramentas .NET e pilhas de aplicativos, como ASP.NET Core, baseiam-se nesses pilares. Grande parte do .NET é escrito em C#, sendo essa a linguagem principal. 
+                                </p>
+                                <p style="text-align: justify;">
+                                    A linguagem C# é <strong>orientada a objetos</strong> e o tempo de execução oferece suporte à orientação aos objetos. O C# requer coleta de lixo e o tempo de execução fornece um coletor de lixo do rastreamento. As bilbiotecas (e também as pilhas de aplicativo) moldam esses recursos em conceitos e modelos de objeto que permitem que os desenvolvedores escrevam algoritmos de forma produtiva nos fluxos de trabalho intuitivos.
+                                </p>
+                                <p style="text-align: justify;">
+                                    As principais bilbiotecas expõem milhares de tipos, muitos dos quais se integram e alimentam a linguagem C#. Por exemplo, a instrução <strong>foreach</strong> do C#'s permite que você enumere coleções arbitrárias. As otimizações baseadas em padrões permitem que coleções como <strong>List<T></strong> sejam processadas de forma simples e eficiente. Você pode deixar o gerenciamento de recursos para coleta de lixo, mas a limpeza do prompt é possível pelo <strong>IDisposable</strong> e suporte direto à linguagem na instrução <strong>using</strong>.
+                                </p>
+                                <p style="text-align: justify;">
+                                    O sistema de tipos oferece 
                                 </p>
                                 <div class="quotes-math">
                                     A = {v, x, z} <br>
                                     B = {2, 4, 6} <br>
                                     C = {positivo, negativo}
-                                </div>
+                                </div>Prd
                                 <p style="text-align: justify;">Os nomes dos elementos e dos conjuntos <strong>podem variar</strong>, ficando a critério de quem está criando/utilizando, podendo ser levada em consideração a situação ou alguma norma. Um elemento pode ou não pertencer a um conjunto e para indicar o pertencimento nós utilizamos os símbolos <strong>&isin;</strong> (pertence) e <strong>&notin;</strong> (não pertence).
                                 </p>
                                 <div style="text-align: justify;" class="quotes-math">
